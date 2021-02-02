@@ -1,34 +1,32 @@
 # testIBM
 Ejercicio obtener fichero proveedores
 
-El fichero plano con la lista de proveedores se genera en la carpeta de fichero de la raiz del proyecto/ejercicio con el nombre "Lista_Proveedores.txt"
-
 ## Table of Contents
 1. [Información General](#general-info)
 2. [Tecnologías](#Tecnologías)
-3. [Instalación](#installation)
+3. [Instalación](#Instalación)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
 ### Información General
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+El cliente nos ha solicitado recibir un fichero plano con la información de sus proveedores, el reporte no debe de tener ningún formato especifico y únicamente hace falta que se genere de forma plana con sus respectivas cabeceras.
 
 ## Tecnologías
 ***
 Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * [MYSQL Server](https://https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-23.html): Version 8.0.23 
 * [MYSQL Workbench](https://dev.mysql.com/doc/workbench/en/): Version 8.0.23
-* [Connector/J](https://https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
+* [Connector/J](https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
+* [Eclipse](https://https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
+
 ## Instalación
 ***
-A little intro about the installation. 
+Descargar MYSQL installer 8.0.23 e instalar:
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+MYSQL Server
+MYSQL Workbench
+Connector/J
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
 ***
 Give instructions on how to collaborate with your project.

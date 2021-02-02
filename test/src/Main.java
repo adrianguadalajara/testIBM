@@ -12,11 +12,14 @@ public class Main {
         public static void main(String[] args) throws Exception {
         	String SQL="SELECT *FROM TEST.PROVEEDORES";
         	if(args != null && args.length == 0 ) {
-        		System.out.println("No llegan idcliente");
+        		System.out.println("Sin parámetros");
         	}else if(args != null && args.length > 1 ) {
     			System.out.println("Argumentos incorrectos");
-    			throw new Exception();
+    			throw new Exception("No puede tener más de un parámetro");
         	}else {
+        		if(!isNumeric(args[0])) {
+        			throw new Exception("No es un id de cliente válido");
+        		}
         		System.out.println("Id cliente: " + args[0]);
         		SQL = SQL + " WHERE id_cliente = "+args[0];
         	}
@@ -45,5 +48,17 @@ public class Main {
     		} catch (Exception e) {
     			e.printStackTrace();
     		}
+        }
+        @SuppressWarnings("unused")
+		public static boolean isNumeric(String strNum) {
+            if (strNum == null) {
+                return false;
+            }
+            try {
+                double d = Double.parseDouble(strNum);
+            } catch (NumberFormatException nfe) {
+                return false;
+            }
+            return true;
         }
     }

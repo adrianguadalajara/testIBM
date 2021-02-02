@@ -7,11 +7,11 @@ Ejercicio obtener fichero proveedores
 3. [Instalación](#Instalación)
 4. [Ejecución](#Ejecución)
 
-## Información General
+## Información General 📋
 ***
 El cliente nos ha solicitado recibir un fichero plano con la información de sus proveedores, el reporte no debe de tener ningún formato especifico y únicamente hace falta que se genere de forma plana con sus respectivas cabeceras.
 
-## Tecnologías
+## Tecnologías 🛠️
 ***
 Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * [MYSQL Server](https://https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-23.html): Version 8.0.23 
@@ -19,7 +19,7 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * [Connector/J](https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
 * [Eclipse](https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
 
-## Instalación
+## Instalación 🔧
 ***
 **Descargar MYSQL installer 8.0.23 e instalar:**
 
@@ -51,12 +51,16 @@ Parámetros por defecto.
 ```
 
 
-##Ejecución
+## Ejecución ⚙️
 
 **Abrir una consola en la ruta donde tengamos la raiz del proyecto y ejecutar:**
 ```
-> java -jar ejercicio.jar
+- .\ejercicio> java -jar ejercicio.jar
   -> Nos crea/Actualiza un fichero Lista_proveedores.txt con todos los proveedores
-> java -jar ejercicio.jar "Parametro"
+- .\ejercicio> java -jar ejercicio.jar "Parametro" Donde parametro sea un número
   ->Nos crea/Actualiza un fichero Lista_proveedores.txt con los proveedores de ese idCliente
 ```
+
+## Autor ✒️
+
+> ADRIÁN GUADALAJARA ABEJAR

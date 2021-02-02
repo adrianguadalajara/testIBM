@@ -18,7 +18,7 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * [MYSQL Server](https://https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-23.html): Version 8.0.23 
 * [MYSQL Workbench](https://dev.mysql.com/doc/workbench/en/): Version 8.0.23
 * [Connector/J](https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
-* [Eclipse](https://https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
+* [Eclipse](https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
 
 ## Instalación
 ***
@@ -38,7 +38,32 @@ Parámetros por defecto.
 - Añadir una password, en mi caso: 1234
 ```
 **Lanzar script en MYSQL Workbench 8.0.23:**
+```
+- Crear esquema
+- Importar script
+- Ejecutar script
+```
 
+**Ejecutar script en MYSQL Workbench 8.0.23:**
+```
+- Crear esquema
+- Importar script.sql (Se encuentra en la carpeta ./BBDD del proyecto)
+- Ejecutar script
+```
+
+**Añadir Connector/J al proyecto en eclipse:**
+```
+- Abrir eclipse
+- Importar proyecto java
+- Añadir el conector
+  -> Click derecho sobre el proyecto 
+  -> propriedades 
+  -> Java Build Path 
+  -> Libraries 
+  -> ADD JARs.. 
+  -> Buscar el conector mysql-connector-java-8.0.23.jar(en la carpeta ./jar del proyecto)
+  -> Apply and Close
+```
 
 
 ## Collaboration

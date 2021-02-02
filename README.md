@@ -5,8 +5,7 @@ Ejercicio obtener fichero proveedores
 1. [Información General](#general-info)
 2. [Tecnologías](#Tecnologías)
 3. [Instalación](#Instalación)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+4. [Ejecución](#Ejecución)
 
 ## Información General
 ***
@@ -51,17 +50,13 @@ Parámetros por defecto.
 - Ejecutar script
 ```
 
-**Añadir Connector/J al proyecto en eclipse:**
-```
-- Abrir eclipse
-- Importar proyecto java
-- Añadir el conector
-  -> Click derecho sobre el proyecto 
-  -> propriedades 
-  -> Java Build Path 
-  -> Libraries 
-  -> ADD JARs.. 
-  -> Buscar el conector mysql-connector-java-8.0.23.jar(en la carpeta ./jar del proyecto)
-  -> Apply and Close
-```
 
+##Ejecución
+
+**Abrir una consola en la ruta donde tengamos la raiz del proyecto y ejecutar:**
+```
+> java -jar ejercicio.jar
+  -> Nos crea/Actualiza un fichero Lista_proveedores.txt con todos los proveedores
+> java -jar ejercicio.jar "Parametro"
+  ->Nos crea/Actualiza un fichero Lista_proveedores.txt con los proveedores de ese idCliente
+```

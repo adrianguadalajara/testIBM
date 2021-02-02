@@ -33,7 +33,7 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
   -> Port: 3306
   -> User: root
   -> Host: 127.0.0.1
-  -> Añadir una password, en mi caso: 1234
+  -> Añadir una password, en mi caso: 1234 (en caso de no ser el mismo, habría que cambiarlo en el archivo .\test\bbdd\MySQLAccess.java)
 ```
 
 **Ejecutar script en MYSQL Workbench 8.0.23:**

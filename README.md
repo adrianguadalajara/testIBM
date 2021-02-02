@@ -5,7 +5,7 @@ El fichero plano con la lista de proveedores se genera en la carpeta de fichero 
 
 ## Table of Contents
 1. [Información General](#general-info)
-2. [Tecnologías](#technologies)
+2. [Tecnologías](#Tecnologías)
 3. [Instalación](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)

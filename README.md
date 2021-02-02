@@ -17,7 +17,8 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * [MYSQL Server](https://https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-23.html): Version 8.0.23 
 * [MYSQL Workbench](https://dev.mysql.com/doc/workbench/en/): Version 8.0.23
 * [Connector/J](https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
-* [Eclipse](https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
+* [JAVA](https://www.eclipse.org/downloads/packages/release/oxygen/3a): Version Oxygen.3a Release (4.7.3a)
+* [Eclipse](https://www.java.com/es/download/ie_manual.jsp): Version 8.0.271
 
 ## Instalación 🔧
 ***
@@ -41,6 +42,11 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 - Crear esquema
 - Importar script.sql (Se encuentra en la carpeta ./BBDD del proyecto)
 - Ejecutar script
+```
+**Instalar JAVA 8.0.271():**
+```
+- Descargar e instalar JAVA.
+- Añadirlo a las variables de entorno.
 ```
 
 

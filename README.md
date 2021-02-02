@@ -28,6 +28,18 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * MYSQL Workbench
 * Connector/J
 
+**Configurar MYSQL server 8.0.23:**
+Parámetros por defecto.
+> Connectivity : TCP/IP
+> Port: 3306
+> User: root
+> Host: 127.0.0.1
+Añadir una password, en mi caso: 1234
+
+**Lanzar script en MYSQL Workbench 8.0.23:**
+
+
+
 ## Collaboration
 ***
 Give instructions on how to collaborate with your project.

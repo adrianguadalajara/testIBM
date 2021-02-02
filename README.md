@@ -4,23 +4,22 @@ Ejercicio obtener fichero proveedores
 El fichero plano con la lista de proveedores se genera en la carpeta de fichero de la raiz del proyecto/ejercicio con el nombre "Lista_Proveedores.txt"
 
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
+1. [Información General](#general-info)
+2. [Tecnologías](#technologies)
+3. [Instalación](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
-### General Info
+### Información General
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
+
+## Tecnologías
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
+Listado de tecnologías utilizadas en el proyecto/ejercicio:
+* [MYSQL Server](https://https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-23.html): Version 8.0.23 
+* [MYSQL Workbench](https://dev.mysql.com/doc/workbench/en/): Version 8.0.23
+* [Connector/J](https://https://dev.mysql.com/doc/connector-j/8.0/en/): Version 8.0.23
+## Instalación
 ***
 A little intro about the installation. 
 ```

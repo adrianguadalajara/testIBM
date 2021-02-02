@@ -7,7 +7,8 @@ Ejercicio obtener fichero proveedores
 3. [Instalación](#Instalación)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
-### Información General
+
+## Información General
 ***
 El cliente nos ha solicitado recibir un fichero plano con la información de sus proveedores, el reporte no debe de tener ningún formato especifico y únicamente hace falta que se genere de forma plana con sus respectivas cabeceras.
 
@@ -21,7 +22,7 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 
 ## Instalación
 ***
-Descargar MYSQL installer 8.0.23 e instalar:
+**Descargar MYSQL installer 8.0.23 e instalar:**
 
 * MYSQL Server
 * MYSQL Workbench

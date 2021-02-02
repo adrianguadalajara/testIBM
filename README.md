@@ -27,13 +27,13 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 * MYSQL Workbench
 
 **Configurar MYSQL server 8.0.23:**
-Parámetros por defecto.
 ```
-- Connectivity : TCP/IP
-- Port: 3306
-- User: root
-- Host: 127.0.0.1
-- Añadir una password, en mi caso: 1234
+- Parámetros por defecto.
+  -> Connectivity : TCP/IP
+  -> Port: 3306
+  -> User: root
+  -> Host: 127.0.0.1
+  -> Añadir una password, en mi caso: 1234
 ```
 
 **Ejecutar script en MYSQL Workbench 8.0.23:**
@@ -49,9 +49,9 @@ Parámetros por defecto.
 **Abrir una consola en la ruta donde tengamos la raiz del proyecto y ejecutar:**
 
 * .\ejercicio> java -jar ejercicio.jar
-  -> Nos crea/Actualiza un fichero Lista_proveedores.txt con todos los proveedores
+  > Nos crea/Actualiza un fichero Lista_proveedores.txt con todos los proveedores
 * .\ejercicio> java -jar ejercicio.jar "Parametro" Donde parametro sea un número
-  ->Nos crea/Actualiza un fichero Lista_proveedores.txt con los proveedores de ese idCliente
+  >Nos crea/Actualiza un fichero Lista_proveedores.txt con los proveedores de ese idCliente
 
 
 ## Autor ✒️

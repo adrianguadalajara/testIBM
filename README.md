@@ -23,9 +23,9 @@ Listado de tecnologías utilizadas en el proyecto/ejercicio:
 ***
 Descargar MYSQL installer 8.0.23 e instalar:
 ```
-MYSQL Server
-MYSQL Workbench
-Connector/J
+* MYSQL Server
+* MYSQL Workbench
+* Connector/J
 ```
 ## Collaboration
 ***
